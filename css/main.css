@@ -1,0 +1,222 @@
+/* Navigation */
+.navbar {
+  background:#F7F9FB;
+  border-bottom: 3px solid #5085A5;
+  position: sticky;
+}
+
+.nav-link, .navbar-brand {
+  color: #31708E;
+  font: 20px 'Asap', sans-serif;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar h1 {
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+}
+
+.navbar h1:hover {
+  color: #000;
+}
+
+/* Spacing */
+.container-fluid {
+    padding: 5em 0;
+}
+
+/* Landing */
+.bg-overlay {
+    background: linear-gradient(rgba(117, 167, 212, 0.6), rgba(0,0,0,.6)), url("../img/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 800px;
+    padding-top: 50px;
+    font-family: 'Asap', sans-serif;
+}
+
+.landing img {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.landing {
+    padding-top: 250px;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.5em;
+}
+
+/* Break */
+.break {
+    padding: 5em;
+    background-color: #5085A5;
+}
+
+/* Body */
+.container-fluid h1 {
+    font: bold 2.5em 'Asap', sans-serif;
+    text-align: center;
+    border-bottom: 3px solid #5085A5;
+    margin-bottom: 25px;
+}
+
+body {
+    line-height: 1.6em;
+}
+
+/* Academics */
+.academics img {
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.degree {
+    margin-left: 3em;
+}
+
+.academics {
+    max-width: 80%;
+}
+
+.academics br {
+    display: none;
+}
+
+/* Web Development */
+.webdev {
+    max-width: 80%;
+}
+
+.webdev h3 {
+    font: bold 1.5em 'Asap', sans-serif;
+    text-align: center;
+  }
+
+.webdev p {
+    text-align: left;
+}
+
+.webblock {
+    padding-bottom: 5em;
+}
+
+.webblock img {
+    border: 1px black solid;
+}
+
+.status {
+    visibility: hidden;
+}
+
+.webdev a:link {
+    color: #31708E;
+    text-decoration: none;
+}
+
+.webdev a:visited {
+    text-decoration: none;
+    color: #31708E;
+}
+
+.webdev a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.webdev a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Summary */
+.summary {
+    max-width: 80%;
+}
+
+.summary p {
+    margin: 0 3em;
+    line-height: 2em;
+}
+
+/* Footer */
+.page-footer {
+  width: 100%;
+  background-color: #222;
+  color: #ccc;
+}
+
+.footer-copyright {
+  color: #fff;
+  padding: 40px 0;
+}
+
+@media (max-width: 576px) {
+    /* Spacing */
+    .container-fluid {
+        padding: 3em 1em;
+    }
+
+    /* Landing */
+    .landing {
+        padding-top: 50%;
+        font-size: 1.25em;
+    }
+
+    .landing img {
+        height: 40%;
+        width: 30%;
+    }
+
+    /* Break */
+    .break {
+        padding: 2em;
+    }
+
+    /* Academics */
+    .academics br {
+        display: inline;
+    }
+    
+    .academics img {
+        margin-bottom: 1em;
+    }
+
+    .degree {
+        margin-left: 0em;
+    }
+
+    /* Web Development */
+    .webdev h1 {
+        text-align: center;
+    }
+
+    .webdev img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .webdev p {
+        padding-top: 1em;
+    }
+
+    /* Summary */
+    .summary {
+        min-width: 100%;
+    }
+}
