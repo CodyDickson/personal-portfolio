@@ -37,6 +37,17 @@
     padding: 5em 0;
 }
 
+/* Links */
+a:link, a:visited {
+    color: #31708E;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: #000;
+}
+
 /* Landing */
 .bg-overlay {
     background: linear-gradient(rgba(117, 167, 212, 0.6), rgba(0,0,0,.6)), url("../img/mountains.jpg");
@@ -44,7 +55,7 @@
     background-size: cover;
     background-position: center center;
     color: #fff;
-    height: 800px;
+    height: 600px;
     padding-top: 50px;
     font-family: 'Asap', sans-serif;
 }
@@ -78,6 +89,21 @@ body {
     line-height: 1.6em;
 }
 
+/* Main Body - Overview, GitHub, Summary*/
+.main-body {
+    max-width: 80%;
+}
+
+.main-body h2 {
+    font: bold 2em 'Asap', sans-serif;
+    margin-left: 1em;
+}
+
+.main-body p {
+    margin: 0 3em 1em 3em;
+    line-height: 2em;
+}
+
 /* Academics */
 .academics img {
   width: 41px;
@@ -98,7 +124,7 @@ body {
     display: none;
 }
 
-/* Web Development */
+/* Web Design */
 .webdev {
     max-width: 80%;
 }
@@ -122,36 +148,6 @@ body {
 
 .status {
     visibility: hidden;
-}
-
-.webdev a:link {
-    color: #31708E;
-    text-decoration: none;
-}
-
-.webdev a:visited {
-    text-decoration: none;
-    color: #31708E;
-}
-
-.webdev a:hover {
-    text-decoration: none;
-    color: #000;
-}
-
-.webdev a:active {
-    text-decoration: none;
-    color: #000;
-}
-
-/* Summary */
-.summary {
-    max-width: 80%;
-}
-
-.summary p {
-    margin: 0 3em;
-    line-height: 2em;
 }
 
 /* Footer */
@@ -188,6 +184,15 @@ body {
         padding: 2em;
     }
 
+    /* Main Body - Overview, GitHub, Summary*/
+    .main-body {
+        min-width: 100%;
+    }
+
+    .main-body h2 {
+        text-align: center;
+    }
+
     /* Academics */
     .academics br {
         display: inline;
@@ -201,7 +206,7 @@ body {
         margin-left: 0em;
     }
 
-    /* Web Development */
+    /* Web Design */
     .webdev h1 {
         text-align: center;
     }
@@ -213,10 +218,5 @@ body {
 
     .webdev p {
         padding-top: 1em;
-    }
-
-    /* Summary */
-    .summary {
-        min-width: 100%;
     }
 }
